@@ -9,7 +9,5 @@ class Solution:
                 return False
 
             maxi = max(maxi , nums[i]+i)
-            if maxi >= n-1:
-                return True
-
+            
         return True
